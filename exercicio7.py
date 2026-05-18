@@ -4,6 +4,9 @@ num2 = int(input("Digite o segundo número (maior): "))
 
 print("\nNúmeros pares entre", num1, "e", num2, ":")
 
-for i in range(num1, num2 + 1):
-    if i % 2 == 0:   
-        print(i)
+contador = num1
+
+while contador <= num2:
+    if contador % 2 == 0:
+        print(contador)
+    contador = contador + 1
